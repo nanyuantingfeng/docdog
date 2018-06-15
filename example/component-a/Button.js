@@ -1,15 +1,13 @@
 /******************************************************
  * Created by nanyuantingfeng on 2018/5/31 17:57.
  *****************************************************/
-import * as React from 'react';
-import ButtonX from 'antd/lib/button'
+import React from 'react';
 
 export default class Button extends React.PureComponent {
-  render () {
+  render() {
     return (
-      <ButtonX {...this.props} />
+      <div/>
     );
   }
 }
 
-Button.Group = ButtonX.Group

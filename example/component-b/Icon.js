@@ -1,13 +1,12 @@
 /******************************************************
  * Created by nanyuantingfeng on 2018/6/11 18:32.
  *****************************************************/
-import * as React from 'react';
-import IconX from 'antd/lib/icon'
+import React from 'react';
 
 export default class Icon extends React.PureComponent {
-  render () {
+  render() {
     return (
-      <IconX {...this.props} />
+      <div/>
     );
   }
 }
