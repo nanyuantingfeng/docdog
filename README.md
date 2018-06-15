@@ -1,7 +1,6 @@
 # docdog 
 
-> 一款自动生成的静态网站大的webpack plugin
-
+???
 
 ## usage
 
@@ -11,7 +10,6 @@ npm i docdog
 
 ```
 const DocDogPlugin = require('docdog')
-
 
 webpackConfig.plugins.push(
     new DocDogPlugin({
